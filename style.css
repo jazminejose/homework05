@@ -1,0 +1,73 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-size: 16px;
+  line-height: 1;
+}
+
+textarea {
+  background: transparent;
+  resize: none;
+  color: #000000;
+  border-left: 2px solid white;
+  padding: 10px;
+}
+
+.jumbotron {
+  text-align: center;
+  background: url(https://png.pngtree.com/thumb_back/fh260/background/20190223/ourmid/pngtree-blue-tech-smart-city-background-citysmart-citybanner-backgroundbackgroundbuildingbluecity-image_68303.jpg);
+  color: white;
+  border-radius: 0;
+  border-bottom: 10px solid black;
+}
+
+.description {
+  width: 950px;
+  white-space: pre-wrap;
+}
+
+.time-block {
+  text-align: center;
+  border-radius: 15px;
+}
+
+.row {
+  background-color: white;
+  white-space: pre-wrap;
+  height: 80px;
+  margin: 10px;
+
+}
+
+.hour {
+  background-color: #ffebeb;
+  color: #000000;
+  border: 1px dashed #000000;
+}
+
+.past {
+  background-color: #d3d3d3;
+  color: white;
+}
+
+.present {
+  background-color: #ff6961;
+  color: white;
+}
+
+.future {
+  background-color: #77dd77;
+  color: white;
+}
+
+.saveBtn {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #f0c6d7;
+  color: white;
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
