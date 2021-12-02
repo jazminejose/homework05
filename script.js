@@ -32,38 +32,21 @@ function timeblocks() {
 }
 
 
-
-// function save() {
-// document.getElementById("button").addEventListener("click", function () {
-//   let inputTime = document.getElementById("9", "10", "11", "12", "13", "14", "15", "16", "17").value;
-//   let input = document.getElementById("9","10","11","12","13","14","15","16","17").value;
-//   alert("Saved.");
-//   console.log(inputTime + input)
-// }, false);
-// }
+document.getElementById('button').addEventListener('click', event => {
+  let save = document.getElementById("9").value;
+  localStorage.setItem("input", JSON.stringify(save))
+  console.log(save)
+})
 
 
-// function save() {
-//   document.getElementById("button").addEventListener("click", function () {
-  // get the id of our parent
-  let hour = document.getElementById("9", "10", "11", "12", "13", "14", "15", "16", "17").value;
-  // save data in textarea in local storage
-  // localStorage.setItem(moment().format("DDDYYYY") + hour, $("#" + hour + "textarea").val());
-  // console.log(hour);
-  // document.getElementById("button").addEventListener("click", function () {
-  //   let input = 
-  //   alert("Saved.");
-  //   console.log(input)
-  // }, false);
-//   )}
-// }
-
-
-
+function getDuties() {
+  let output = localStorage.getItem("input")
+  document.getElementById("9").innerHTML = output
+}
 
 
 time();
 
 timeblocks();
 
-// save();
+getDuties();

@@ -18,7 +18,7 @@ textarea {
   background: url(https://png.pngtree.com/thumb_back/fh260/background/20190223/ourmid/pngtree-blue-tech-smart-city-background-citysmart-citybanner-backgroundbackgroundbuildingbluecity-image_68303.jpg);
   color: white;
   border-radius: 0;
-  border-bottom: 10px solid black;
+  border-bottom: 50px solid black;
 }
 
 .description {
@@ -47,27 +47,28 @@ textarea {
 
 .past {
   background-color: #d3d3d3;
-  color: white;
+  color: black;
 }
 
 .present {
   background-color: #ff6961;
-  color: white;
+  color: black;
 }
 
 .future {
   background-color: #77dd77;
-  color: white;
+  color: black;
 }
 
 .saveBtn {
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: #f0c6d7;
-  color: white;
+  color: black;
 }
 
 .saveBtn i:hover {
+  color: white;
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
